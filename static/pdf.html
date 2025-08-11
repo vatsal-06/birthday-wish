@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Birthday Surprise</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="background"></div>
+
+    <!-- Floating reset button -->
+    <button id="reset-btn" onclick="goBack()">↩ Back</button>
+
+    <div class="content">
+        <iframe id="pdf" src="birthday.pdf"></iframe>
+    </div>
+
+    <script>
+        function goBack() {
+            window.location.href = "index.html"; // Go back to password page
+        }
+    </script>
+</body>
+</html>
